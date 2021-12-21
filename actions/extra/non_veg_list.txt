@@ -1,0 +1,137 @@
+beef
+lamb
+veal
+pork
+kangaroo
+sausages
+chicken
+turkey
+duck
+emu
+goose
+fish
+prawns
+crab
+lobster
+mussels
+oysters
+scallops
+clams
+sausage
+mutton
+shrimp
+salmon
+tuna
+trout
+halibut
+mackerel
+cod
+sardines
+herring
+anchovies
+barracuda
+basa
+bass
+black cod
+sablefish
+blowfish
+bluefish
+bombay duck
+bream
+brill
+butter fish
+catfish
+cod
+dogfish
+dorade
+eel
+flounder
+grouper
+haddock
+hake
+halibut
+herring
+ilish
+john dory
+lamprey
+lingcod
+mackerel
+mahi mahi
+monkfish
+mullet
+orange roughy
+parrotfish
+patagonian toothfish
+chilean sea bass
+perch
+pike
+pilchard
+pollock
+pomfret
+pompano
+sablefish
+salmon
+sanddab
+sardine
+sea bass
+shad
+alewife
+shark
+skate
+smelt
+snakehead
+snapper 
+rockfish
+rock cod
+pacific snapper
+sole
+sprat
+sturgeon
+surimi
+swordfish
+tilapia
+tilefish
+trout
+tuna
+turbot
+wahoo
+whitefish
+whiting
+witch 
+righteye flounder
+caviar
+sturgeon roe
+ikura
+salmon roe
+kazunoko
+herring roe
+lumpfish roe
+masago
+capelin roe
+shad roe
+tobiko
+flying-fish roe
+crabs
+craw
+cray fish
+lobsters
+shrimps
+prawns
+cockle
+cuttlefish
+clam
+loco
+mussel
+octopus
+oyster
+periwinkle
+scallop
+squid
+conch
+snails
+nautilus
+sea cucumber
+uni
+sea urchin
+jellyfish
+sea fig

@@ -1,0 +1,88 @@
+version: "3.0"
+
+intents:
+    - greet
+    - goodbye
+    - affirm
+    - deny
+    - bot_challenge
+    - how
+    - what
+    - start_recipie
+    - user_inputs_url
+    - user_asks_ingredients
+    - user_asks_for_next_step
+    - user_asks_for_previous_step
+    - user_asks_to_repeat
+    - user_asks_for_n_step
+    - user_asks_how_much_time
+    - user_asks_substitute
+    - user_asks_ingredient_amount 
+    - user_asks_temperature    
+
+entities:
+    - action
+    - object
+    - url
+
+actions:
+    - action_get_youtube_url
+    - action_get_recipie_from_url
+    - action_get_ingredient_list
+    - action_get_next_step
+    - action_get_previous_step
+    - action_repeat_previous_message
+    - action_give_n_step
+    - action_give_ingredient_amount
+    - action_give_time
+    - action_give_ingredient_sub
+    - action_give_temperature
+
+slots:
+    action:
+        type: text
+        mappings:
+        - type: from_entity
+          entity: action
+    object:
+        type: text
+        mappings:
+        - type: from_entity
+          entity: object
+    recipie:
+        type: any
+        mappings:
+        - type: custom
+    step_no:
+        type: float
+        mappings:
+        - type: custom
+
+responses:
+    utter_greet:
+    - text: "Hey! I am CookBot! Give me an URL and we can start cooking!"
+
+    utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+
+    utter_did_that_help:
+    - text: "Did that help you?"
+
+    utter_happy:
+    - text: "Great, carry on!"
+
+    utter_goodbye:
+    - text: "Bye"
+
+    utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+    utter_askforurl:
+    - text: "Sure. Please specify a URL."
+
+    utter_receiveurl:
+    - text: "Thanks for the URL boss."
+
+session_config:
+    session_expiration_time: 60
+    carry_over_slots_to_new_session: true
